@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    height: 65px;
+    border: 1px solid black;
+    justify-content: space-evenly;
+    align-items: center;
+    width:100%;
+    border-left: none;
+    border-right: none;
+}
+.nav-logo{
+    background-image: url("upwork-vector-logo-2021.png");
+    background-size:cover;
+    background-position:center;
+    height: 25px;
+    width: 85px;
+}
+.nav-work{
+    display: inline-block;
+}
+.options{
+    border: none;
+    color:#181818;
+    font-size: 1rem;
+}
+.option-a{
+    text-decoration: none;
+    color:#181818;
+}
+.nav-search{
+    border-radius: 25px;
+    border:2px solid rgb(192, 186, 186) ;
+    padding:7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 50px; */
+    position:relative;
+    left:50px;
+}
+.nav-search input{
+    width: 200px;
+    height: 25px;
+    font-size: 1rem;
+    border:none;
+}
+.nav-search i{
+    font-size: 1rem;
+}
+.nav-search select{
+    border:none;
+    border-left: 0.5px solid  rgb(192, 186, 186);
+    font-size: 1rem;
+}
+.nav-account{
+    display: flex;
+    justify-content: space-evenly;
+    margin:0px 30px;
+    align-items: center;
+}
+.anchor{
+    text-decoration: none;
+    font-size: 1rem;
+}
+.log-in{
+    color:#181818;
+    padding:0px 25px;
+}
+.sign-up{
+    color:#ffffff;
+    padding:0px 25px;
+    background-color: #108a00;
+    height: 40px;
+    border:2px solid #108a00;
+    display: flex;
+    align-items: center;
+    border-radius: 13px;
+}
+.nav-panel{
+    display: flex;
+    height: 64px;
+}
+.nav-panel ul{
+    display: flex;
+    align-items: center;
+}
+.nav-panel ul li {
+    list-style-type: none;
+    padding:0px 10px;
+}
+.nav-panel ul li a{
+    text-decoration: none;
+    color:#181818;
+    font-size:1rem;
+}
+.nav-panel ul li a:hover{
+    text-decoration: underline;
+    color: green;
+}
+.nav-panel select{
+    border:none;
+    padding:0px 10px;
+}
+.hero-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-section h1{
+    font-size:4.5rem;
+    padding:0px 180px 0px 50px;
+}
+.hero-section p{
+    color:grey;
+    font-size:1.5rem;
+    padding:0px 200px 0px 50px;
+
+}
+.hero-section button{
+    padding:10px 25px;
+    background-color: #108a00;
+    color:#ffffff;
+    border-radius: 10px;
+    border: none;
+    position: relative;
+    left:60px;
+    top:30px;
+    transform: scale(1.2);
+}
+.img{
+    background-image: url("searching-talent@2x.webp");
+    background-size: cover;
+    height: 300px;
+    width:80%;
+}
+.hero-section2{
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    justify-content: space-evenly;
+}
+.hero-section2 p{
+    color:grey;
+    padding-left: 50px;
+    font-size: 1.3rem;
+}
+.images{
+    display: flex;
+    /* justify-content: space-evenly; */
+    padding-top: 20px;
+}
+.microsoft{
+    background-image: url("microsoft.svg");
+    background-size:cover;
+    width: 120px;
+    height: 40px;
+    margin: 0px 20px 0px 50px;
+}
+.airbnb{
+    background-image: url("airbnb.svg");
+    background-size:cover;
+    width: 100px;
+    height: 40px;
+    margin: 0px 20px;
+}
+.bissell{
+    background-image: url("bissell.svg");
+    background-size:cover;
+    width: 60px;
+    height: 40px;
+    margin: 0px 20px;
+}
+footer{
+    height: 650px;
+    background-color: #181818;
+    margin:100px 40px 40px 40px;
+    border-radius: 10px;
+}
+.comp-foot{
+    display: flex;
+    justify-content: space-evenly;
+}
+.foot-hire p{
+    padding:45px 0px 10px 0px;
+    color:white;
+}
+.foot-hire ul{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 350px;
+}
+.foot-hire ul li{
+    list-style-type: none;
+
+}
+.foot-hire ul li a{
+    text-decoration: none;
+    color:white;
+}
+.foot-hire ul li a:hover{
+    text-decoration: underline;
+}
+.foot{
+    display: flex;
+    justify-content: center;
+}
+.foot-panel{
+    display:flex;
+    padding-left: 140px;
+    margin-top:30px;
+    align-items: center;
+    width:80%;
+}
+.follow{
+    color:white;
+    padding-right:5px;
+    font-weight: 700;
+}
+.foot-panel i{
+    color:white;
+    padding: 0px 15px;
+    font-size: 2rem;
+}
+.line{
+    display:flex;
+    justify-content: center;
+}
+hr{
+    width:77%;
+    margin-top:10px;
+}
+.foot-panel2{
+    display:flex;
+    padding-left: 140px;
+    margin-top:30px;
+    align-items: center;
+    width:80%;
+    position:relative;
+    left:120px;
+}
+.app{
+    color:white;
+    padding-right:5px;
+    font-weight: 700;
+}
+.foot-panel2 i{
+    color:white;
+    padding: 0px 15px;
+    font-size: 2rem;
+}
+.foot-text{
+    display: flex;
+    justify-content: space-evenly;
+}
+.foot-text p{
+    padding: 10px 10px 0px 20px;
+    font-size:0.9rem;
+    color:white;
+}
+.foot-text ul{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 100px;
+}
+.foot-text ul li{
+    list-style-type: none;
+    padding: 10px 0px 0px 10px;
+}
+.foot-text a{
+    text-decoration: none;
+    color:white;
+    font-size:0.9rem;
+}
+.foot-text a:hover{
+    text-decoration: underline;
+}
